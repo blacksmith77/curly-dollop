@@ -20,6 +20,7 @@ resource "atlas_artifact" "beacon" {
 
 # Modules
 
+
 module "vpc" {
   source = "../modules/vpc"
   aws_region = "${var.aws_region}"
